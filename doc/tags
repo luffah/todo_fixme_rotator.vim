@@ -1,0 +1,9 @@
+<leader>F	todo_fixme_rotator.txt	/*<leader>F*
+<leader>T	todo_fixme_rotator.txt	/*<leader>T*
+g:todo_fixme_rotator_fixme_values	todo_fixme_rotator.txt	/*g:todo_fixme_rotator_fixme_values*
+g:todo_fixme_rotator_todo_values	todo_fixme_rotator.txt	/*g:todo_fixme_rotator_todo_values*
+todo_fixme_rotator	todo_fixme_rotator.txt	/*todo_fixme_rotator*
+todo_fixme_rotator-contents	todo_fixme_rotator.txt	/*todo_fixme_rotator-contents*
+todo_fixme_rotator-globals	todo_fixme_rotator.txt	/*todo_fixme_rotator-globals*
+todo_fixme_rotator-mappings	todo_fixme_rotator.txt	/*todo_fixme_rotator-mappings*
+todo_fixme_rotator.vim	todo_fixme_rotator.txt	/*todo_fixme_rotator.vim*

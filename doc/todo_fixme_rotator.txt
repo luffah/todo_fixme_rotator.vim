@@ -1,0 +1,43 @@
+*todo_fixme_rotator.vim*    Vim tool for fast add/change on TODO / FIXME items
+                                                          *todo_fixme_rotator*
+ >
+     ┌─────┐ ┌───┐   ┌─┐ ┌───┐ 
+     └──┐ ┌┘ │   │ ┌─┘ │ │   │ 
+        │ │  │   │ │   │ │   │ 
+        └─┘  └───┘ └───┘ └───┘
+        TODO DONE  PENDING
+        FIXME             ROTATOR
+    
+<
+License:     AGPLv3 (see https://www.gnu.org/licenses/agpl-3.0.txt)
+Author(s):   luffah (luffah AT runbox com)
+Revision:    1
+Last Change: 2020-12-02
+==============================================================================
+CONTENTS                                         *todo_fixme_rotator-contents*
+
+1. Globals                                        |todo_fixme_rotator-globals|
+2. Keymappings                                   |todo_fixme_rotator-mappings|
+
+==============================================================================
+GLOBALS                                           *todo_fixme_rotator-globals*
+
+*g:todo_fixme_rotator_todo_values*
+    values to set as TODO in left to right order
+    default : ['TODO', 'DONE', 'PENDING', '']
+
+*g:todo_fixme_rotator_fixme_values*
+    values to set as FIXME in left to right order
+    default : ['FIXME', '']
+
+
+==============================================================================
+KEYMAPPINGS                                      *todo_fixme_rotator-mappings*
+
+*<leader>T*
+    add/update TODO
+
+*<leader>F*
+    add/update FIXME
+
+vim:tw=78:ts=8:ft=help:norl:

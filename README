@@ -1,0 +1,22 @@
+     ┌─────┐ ┌───┐   ┌─┐ ┌───┐ 
+     └──┐ ┌┘ │   │ ┌─┘ │ │   │ 
+        │ │  │   │ │   │ │   │ 
+        └─┘  └───┘ └───┘ └───┘
+        TODO DONE  PENDING
+        FIXME             ROTATOR
+    
+
+** todo_fixme_rotator.vim -- Vim tool for fast add/change on TODO / FIXME items **
+
+License:     AGPLv3 (see https://www.gnu.org/licenses/agpl-3.0.txt)
+Last Change: 2020-12-02
+
+
+### HOW TO USE IT ?
+
+**<leader>T
+    add/update TODO
+
+**<leader>F
+    add/update FIXME
+
