@@ -25,7 +25,7 @@ let s:todo_values = get(g:,'todo_fixme_rotator_todo_values',
 let s:fixme_values =  get(g:, 'todo_fixme_rotator_fixme_values',
       \ ['FIXME', ''])
 
-let s:markdown_like_ft = ['markdone', 'org', 'zim', 'rst']
+let s:markdown_like_ft = ['markdone', 'org', 'zim', 'rst', 'text', 'txt']
 let s:bash_like_ft = ['python', 'bash']
 let s:java_like_ft = ['java', 'javascript', 'cpp', 'c']
 let s:vim_like_ft = ['vim', 'ruby']
